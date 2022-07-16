@@ -32,8 +32,7 @@ int main(){
 	int a[100][100];
 	cout<<"enter the array elements "<<endl;
 	for (int row = 0; row < rows; row++){
-		for (int col = 0; col < cols; col++){
-			
+		for (int col = 0; col < cols; col++){	
 			cin>>a[row][col];
 		}
 	}

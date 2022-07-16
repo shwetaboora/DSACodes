@@ -14,7 +14,7 @@ int factorial(int n){
     return ans;
 }
 
-itn ncr(int n, int r ){
+int ncr(int n, int r ){
     int ans = factorial(n)/(factorial(n - r)*factorial(r));
     return ans;
 }

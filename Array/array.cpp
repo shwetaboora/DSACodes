@@ -1,5 +1,5 @@
 // how to write an array program
-
+ 
 #include<iostream>
 using namespace std;
 
