@@ -22,7 +22,7 @@ int main(){
 	}
 
 	// wave print
-	for (int col = 0;col  < n; col++)
+	for (int col = 0;col < n; col++)
 	{
 		if (col%2==0)
 		{
@@ -43,9 +43,6 @@ int main(){
 			}
 		}
 	}
-
-
-
 
 	return 0;
 }
