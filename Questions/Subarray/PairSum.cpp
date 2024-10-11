@@ -17,8 +17,8 @@ using namespace std;
 //     return false;
 // }
 
-// optimized approach O(n)
-// in sorted array
+// optimal approach O(n)
+// two pointer  approach
 bool pairsum(int arr[], int n, int k)
 {
     int low = 0;

@@ -6,12 +6,12 @@ int main()
     int n = 7;
     int arr[n] = {3, 6, 8, 0, 3, 1, 7};
 
-    // logic
+    // logic O(n^2)
     for (int i = 1; i < n; i++)
     {
         int current = arr[i];
         int j = i - 1;
-        while (arr[j] > current && j >= 0)
+        while (arr[j] > current && j >= 0) // <  for descending
         {
             arr[j + 1] = arr[j];
             j--;
