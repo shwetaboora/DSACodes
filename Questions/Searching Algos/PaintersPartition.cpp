@@ -20,7 +20,7 @@ bool isValid(vector<int> &arr, int n, int m, int maxAllowedPages)
     }
     return painters <= m;
 }
-
+// MinPossible MaxTime
 int minTimeToPaint(vector<int> &arr, int n, int m) // O(logn * n)
 {
     int sum = 0, maxVal = INT_MIN;

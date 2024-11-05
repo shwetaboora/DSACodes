@@ -11,9 +11,13 @@ int main()
 
     // string str;
     // string str(5, 'n');
-    string str = "abadfafac";
+    string str = "abadfafac"; // dynamic in nature because it gets resize at runtime also we can modify it but not char array
     // cin >> str;
     // getline(cin, str); // for sentence input in only cin we just get single word
+    // for (int i = 0; i < str.length(); i++)
+    // {
+    //     cout<<str[i]<<" ";
+    // }
 
     string str1 = "abc";
     // cout << str.length(); //.size()

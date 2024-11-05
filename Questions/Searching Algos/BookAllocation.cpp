@@ -24,6 +24,7 @@ bool isValid(vector<int> &arr, int n, int m, int maxAllowedPages)
     return students > m ? false : true;
 }
 
+// minpossible maxpages
 int allocateBooks(vector<int> &arr, int n, int m) // O(logn * n)
 {
     if (m > n)
