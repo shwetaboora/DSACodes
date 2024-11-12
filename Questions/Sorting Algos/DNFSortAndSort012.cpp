@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 // brute force - using sort function (O(nlogn))
-
 // optimized O(n)
 // void sortcolor(vector<int> &nums)
 // {
@@ -37,7 +36,8 @@ using namespace std;
 //         nums[idx++] = 2;
 //     }
 // }
-
+// Dutch National Flag Algorithm
+// DNF Sort - 0,1,2
 // optimal O(n)
 void sortcolor(vector<int> &nums)
 {
