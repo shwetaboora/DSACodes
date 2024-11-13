@@ -5,6 +5,7 @@
 #include <deque>
 #include <stack>
 #include <queue>
+// hashing means using maps or sets
 #include <map>
 #include <set>
 #include <unordered_set>
