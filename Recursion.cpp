@@ -23,7 +23,7 @@ int Power(int n, int p)
     return n * prevPower;
 }
 
-int factorial(int n)
+int factorial(int n) // O(n)
 {
     if (n == 0)
     {
