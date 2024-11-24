@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+// TC - total calls *work done in each call
+// SC - depth of the recursive tree*space or memory in each call || height of the call stack*space or memory in each call
 int Sum(int n)
 {
     if (n == 0)
@@ -37,7 +38,7 @@ int factorial(int n) // O(n)
 
 // nth Fibonacci number
 
-int fibonacci(int n)
+int fibonacci(int n) // TC- O(2^n) SC- O(n)
 {
     if (n == 0 || n == 1)
     {

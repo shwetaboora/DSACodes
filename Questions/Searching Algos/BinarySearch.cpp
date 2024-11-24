@@ -36,12 +36,12 @@ int binarySearch(int arr[], int n, int key)
 // recursive approach this one not better as its time comp is same as O(logn) but space comp is bigger o(logn) its not optimized
 int RecbinarySearch(int arr[], int key, int s, int e)
 {
-    while (s <= e)
+    if (s <= e)
     {
         int mid = s + (e - s) / 2;
         if (arr[mid] == key)
         {
-            return RecbinarySearch(arr, key, mid + 1, e);
+            return mid;
         }
         else if (arr[mid] > key)
         {
@@ -49,7 +49,7 @@ int RecbinarySearch(int arr[], int key, int s, int e)
         }
         else
         {
-            return mid;
+            return RecbinarySearch(arr, key, mid + 1, e);
         }
     }
 
